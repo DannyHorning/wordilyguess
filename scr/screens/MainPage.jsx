@@ -1,16 +1,20 @@
+// MainPage.jsx
 import React from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import MainLayout from '../layouts/Layout';
 
 const MainPage = () => {
+  const navigation = useNavigation();
+
   const handleStartGame = () => {
     // Logic for starting the game
     console.log('Start Game clicked');
   };
 
   const handleInstructions = () => {
-    // Logic for displaying instructions
-    console.log('Instructions clicked');
+    // Navigate to InstructionsPage
+    navigation.navigate('Instructions');
   };
 
   return (
