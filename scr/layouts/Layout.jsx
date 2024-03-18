@@ -1,47 +1,42 @@
 import React from 'react';
-import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import { ImageBackground, StyleSheet, View, Text, Font } from 'react-native';
 
-const MainLayout = ({ children, onStartGame, onInstructions }) => {
+
+const MainLayout = ({ children }) => {
+  // React.useEffect(() => {
+  //   // Load the custom font
+  //   (async () => {
+  //     await Font.loadAsync({
+  //       'Western': require('./fonts/Western.ttf'),
+  //     });
+  //   })();
+  // }, []);
+  
+
   return (
-    <View style={styles.container}>
-      <View style={styles.content}>
-        {children}
+    <ImageBackground source={require('./assets/hangman-background.png')} style={styles.backgroundImage}>
+      <View style={styles.titleContainer}>
+        <Text style={styles.titleText}>Wordily Guess</Text>
       </View>
-      <View style={styles.bottomButtons}>
-        <TouchableOpacity onPress={onStartGame} style={styles.button}>
-          <Text style={styles.buttonText}>Start Game</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={onInstructions} style={styles.button}>
-          <Text style={styles.buttonText}>Instructions</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
+      {children}
+    </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  backgroundImage: {
     flex: 1,
-    padding: 20,
+    resizeMode: 'cover', // or 'stretch' or 'contain'
   },
-  content: {
-    flex: 1,
-  },
-  bottomButtons: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  titleContainer: {
+    paddingTop: 20, // Adjust as needed
     alignItems: 'center',
-    marginTop: 20,
   },
-  button: {
-    backgroundColor: 'blue',
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderRadius: 5,
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
+  titleText: {
+    fontSize: 36,
+    fontFamily: 'Western', // Using Western font
+    fontWeight: 'bold',
+    color: '#8B4513', // Rustic brown color
   },
 });
 

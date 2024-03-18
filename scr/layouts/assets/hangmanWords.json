@@ -1,0 +1,1676 @@
+[
+    {
+      "word": "Albert Einstein",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Isaac Newton",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Marie Curie",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "Leonardo da Vinci",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Charles Darwin",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Walt Disney",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "Pablo Picasso",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Vincent van Gogh",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Michael Jordan",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Muhammad Ali",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Tiger Woods",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Serena Williams",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "LeBron James",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Roger Federer",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Lionel Messi",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Cristiano Ronaldo",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Stephen Hawking",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Steve Jobs",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Mark Zuckerberg",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Elon Musk",
+      "length": 8,
+      "category": "Famous People"
+    },
+    {
+      "word": "Jeff Bezos",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Bill Gates",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Ada Lovelace",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Katherine Johnson",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Neil Armstrong",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Mahatma Gandhi",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Nelson Mandela",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Martin Luther King Jr.",
+      "length": 20,
+      "category": "Famous People"
+    },
+    {
+      "word": "Mother Teresa",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Abraham Lincoln",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Winston Churchill",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Marilyn Monroe",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Michael Jackson",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Madonna",
+      "length": 7,
+      "category": "Famous People"
+    },
+    {
+      "word": "Beyoncé",
+      "length": 7,
+      "category": "Famous People"
+    },
+    {
+      "word": "Elvis Presley",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "The Beatles",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Queen",
+      "length": 5,
+      "category": "Famous People"
+    },
+    {
+      "word": "Kanye West",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "Taylor Swift",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Lady Gaga",
+      "length": 8,
+      "category": "Famous People"
+    },
+    {
+      "word": "Britney Spears",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Barack Obama",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Donald Trump",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Queen Elizabeth II",
+      "length": 18,
+      "category": "Famous People"
+    },
+    {
+      "word": "Vladimir Putin",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Angela Merkel",
+      "length": 13,
+      "category": "Famous People"
+    },
+    {
+      "word": "Emmanuel Macron",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Xi Jinping",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Pope Francis",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Dalai Lama",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "Malala Yousafzai",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Anne Frank",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "William Shakespeare",
+      "length": 20,
+      "category": "Famous People"
+    },
+    {
+      "word": "Ernest Hemingway",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Charles Dickens",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Leo Tolstoy",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "George Orwell",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Agatha Christie",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "F. Scott Fitzgerald",
+      "length": 19,
+      "category": "Famous People"
+    },
+    {
+      "word": "Arthur Conan Doyle",
+      "length": 18,
+      "category": "Famous People"
+    },
+    {
+      "word": "Harper Lee",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "George R.R. Martin",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "J.R.R. Tolkien",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Homer",
+      "length": 5,
+      "category": "Famous People"
+    },
+    {
+      "word": "Plato",
+      "length": 5,
+      "category": "Famous People"
+    },
+    {
+      "word": "Aristotle",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Socrates",
+      "length": 8,
+      "category": "Famous People"
+    },
+    {
+      "word": "Confucius",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Immanuel Kant",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Friedrich Nietzsche",
+      "length": 18,
+      "category": "Famous People"
+    },
+    {
+      "word": "Thomas Aquinas",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "John Locke",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Jean-Jacques Rousseau",
+      "length": 21,
+      "category": "Famous People"
+    },
+    {
+      "word": "Karl Marx",
+      "length": 8,
+      "category": "Famous People"
+    },
+    {
+      "word": "Adam Smith",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Sigmund Freud",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Michel Foucault",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "John Rawls",
+      "length": 9,
+      "category": "Famous People"
+    },
+    {
+      "word": "Noam Chomsky",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Ayn Rand",
+      "length": 7,
+      "category": "Famous People"
+    },
+    {
+      "word": "Fyodor Dostoevsky",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Jean-Paul Sartre",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Albert Camus",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Virginia Woolf",
+      "length": 14,
+      "category": "Famous People"
+    },
+    {
+      "word": "Emily Dickinson",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Sylvia Plath",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Maya Angelou",
+      "length": 11,
+      "category": "Famous People"
+    },
+    {
+      "word": "Toni Morrison",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+      "word": "Zora Neale Hurston",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Louisa May Alcott",
+      "length": 17,
+      "category": "Famous People"
+    },
+    {
+      "word": "Charlotte Brontë",
+      "length": 16,
+      "category": "Famous People"
+    },
+    {
+      "word": "Terry Pratchett",
+      "length": 15,
+      "category": "Famous People"
+    },
+    {
+      "word": "Neil Gaiman",
+      "length": 10,
+      "category": "Famous People"
+    },
+    {
+      "word": "Stephen King",
+      "length": 12,
+      "category": "Famous People"
+    },
+    {
+        "word": "Lion",
+        "length": 4,
+        "category": "Animals"
+    },
+    {
+        "word": "Elephant",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Tiger",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Penguin",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Dolphin",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Shark",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Whale",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Octopus",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Crocodile",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Snake",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Turtle",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Eagle",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Owl",
+        "length": 3,
+        "category": "Animals"
+    },
+    {
+        "word": "Hawk",
+        "length": 4,
+        "category": "Animals"
+    },
+    {
+        "word": "Sparrow",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Butterfly",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Ant",
+        "length": 3,
+        "category": "Animals"
+    },
+    {
+        "word": "Bee",
+        "length": 3,
+        "category": "Animals"
+    },
+    {
+        "word": "Ladybug",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Rhinoceros",
+        "length": 10,
+        "category": "Animals"
+    },
+    {
+        "word": "Ostrich",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Lemur",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Komodo Dragon",
+        "length": 13,
+        "category": "Animals"
+    },
+    {
+        "word": "Meerkat",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Porcupine",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Tapir",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Mandrill",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Chameleon",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Narwhal",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Lioness",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Panther",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Leopard",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Black Bear",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Red Kangaroo",
+        "length": 12,
+        "category": "Animals"
+    },
+    {
+        "word": "Wallaby",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Quokka",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Tasmanian Devil",
+        "length": 16,
+        "category": "Animals"
+    },
+    {
+        "word": "Dingo",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Wombat",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Tasmanian Tiger",
+        "length": 15,
+        "category": "Animals"
+    },
+    {
+        "word": "Dugong",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Gorilla",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Orangutan",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Chimpanzee",
+        "length": 10,
+        "category": "Animals"
+    },
+    {
+        "word": "Bonobo",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Raccoon",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Red Fox",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Arctic Fox",
+        "length": 10,
+        "category": "Animals"
+    },
+    {
+        "word": "Fennec Fox",
+        "length": 10,
+        "category": "Animals"
+    },
+    {
+        "word": "Gray Wolf",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "African Elephant",
+        "length": 16,
+        "category": "Animals"
+    },
+    {
+        "word": "Asian Elephant",
+        "length": 14,
+        "category": "Animals"
+    },
+    {
+        "word": "White Rhinoceros",
+        "length": 16,
+        "category": "Animals"
+    },
+    {
+        "word": "Black Rhinoceros",
+        "length": 16,
+        "category": "Animals"
+    },
+    {
+        "word": "Hippopotamus",
+        "length": 12,
+        "category": "Animals"
+    },
+    {
+        "word": "Giraffe",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Cheetah",
+        "length": 7,
+        "category": "Animals"
+    },
+    {
+        "word": "Jaguar",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Snow Leopard",
+        "length": 12,
+        "category": "Animals"
+    },
+    {
+        "word": "Clouded Leopard",
+        "length": 15,
+        "category": "Animals"
+    },
+    {
+        "word": "Amur Leopard",
+        "length": 11,
+        "category": "Animals"
+    },
+    {
+        "word": "Alpaca",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Capuchin Monkey",
+        "length": 15,
+        "category": "Animals"
+    },
+    {
+        "word": "Red Panda",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Polar Bear",
+        "length": 10,
+        "category": "Animals"
+    },
+    {
+        "word": "Grizzly Bear",
+        "length": 12,
+        "category": "Animals"
+    },
+    {
+        "word": "Koala",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Pangolin",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Toucan",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Armadillo",
+        "length": 9,
+        "category": "Animals"
+    },
+    {
+        "word": "Platypus",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Komodo Dragon",
+        "length": 13,
+        "category": "Animals"
+    },
+    {
+        "word": "Sloth",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Panda",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Kangaroo",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Hedgehog",
+        "length": 8,
+        "category": "Animals"
+    },
+    {
+        "word": "Arctic Wolf",
+        "length": 11,
+        "category": "Animals"
+    },
+    {
+        "word": "Fossa",
+        "length": 5,
+        "category": "Animals"
+    },
+    {
+        "word": "Lynx",
+        "length": 4,
+        "category": "Animals"
+    },
+    {
+        "word": "Quokka",
+        "length": 6,
+        "category": "Animals"
+    },
+    {
+        "word": "Tarsier",
+        "length": 7,
+        "category": "Animals"
+    },
+    { 
+      "word": "Piece of cake", 
+      "length": 12, 
+      "category": "Common Phrases"
+    },
+    { 
+      "word": "Break a leg", 
+      "length": 11, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Under the weather", 
+      "length": 16, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Cost an arm and a leg", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "In the blink of an eye", 
+      "length": 19, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Bite the bullet", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Out of the blue", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Easy as pie", 
+      "length": 11, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "On the ball", 
+      "length": 10, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Burn the midnight oil", 
+      "length": 19, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Jump the gun", "length": 12, "category": "Common Phrases" },
+    { 
+      "word": "Catch someone's eye", 
+      "length": 18, 
+      "category": 
+      "Common Phrases" 
+    },
+    { 
+      "word": "Break the ice", 
+      "length": 12, 
+      "category": 
+      "Common Phrases" 
+    },
+    { 
+      "word": "Give the benefit of the doubt", 
+      "length": 27, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Spill the beans", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "On thin ice", 
+      "length": 11, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Through thick and thin", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Cut to the chase", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "At the drop of a hat", 
+      "length": 17, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "A piece of cake", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Hit the sack", 
+      "length": 11, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Out of the woods", 
+      "length": 15, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Spill the tea", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Bite the dust", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Call it a day", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Cost a pretty penny", 
+      "length": 19, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Cutting corners", 
+      "length": 15, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Fit as a fiddle", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Let the cat out of the bag", 
+      "length": 22, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "On cloud nine", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Piece of the pie", 
+      "length": 15, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Raining cats and dogs", 
+      "length": 19, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Straight from the horse's mouth", 
+      "length": 25, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Take the cake", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Under the gun", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Up in the air", 
+      "length": 11, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "We'll cross that bridge when we come to it", 
+      "length": 42, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "A dime a dozen", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Barking up the wrong tree", 
+      "length": 23, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Back to square one", 
+      "length": 16, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Cost an arm and a leg", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Don't count your chickens before they hatch", 
+      "length": 41, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Every cloud has a silver lining", 
+      "length": 32, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Get cold feet", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Hit the nail on the head", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Jump on the bandwagon", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Keep your chin up", 
+      "length": 16, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Like a fish out of water", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Make a long story short", 
+      "length": 22, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "No pain, no gain", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "On the ball", 
+      "length": 10, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Piece of the pie", 
+      "length": 15, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Right as rain", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Speak of the devil", 
+      "length": 17, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "The early bird catches the worm", 
+      "length": 31, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Under the weather", 
+      "length": 16, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "When pigs fly", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "You can't judge a book by its cover", 
+      "length": 34, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Zip your lip", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Actions speak louder than words", 
+      "length": 27, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "All ears", 
+      "length": 8, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Bite off more than you can chew", 
+      "length": 27, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Don't cry over spilled milk", 
+      "length": 27, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Elephant in the room", 
+      "length": 19, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Far cry from", 
+      "length": 12, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Go the extra mile", 
+      "length": 16, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Hold your horses", 
+      "length": 14, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "In the heat of the moment", 
+      "length": 22, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Jumping to conclusions", 
+      "length": 21, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Keep it under wraps", 
+      "length": 18, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Let sleeping dogs lie", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Make a mountain out of a molehill", 
+      "length": 29, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "No harm, no foul", 
+      "length": 15, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Off the top of my head", 
+      "length": 20, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Pot calling the kettle black", 
+      "length": 27, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Rule of thumb", 
+      "length": 13, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Shoot for the moon", 
+      "length": 17, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Time flies when you're having fun", 
+      "length": 34, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "You scratch my back, I'll scratch yours", 
+      "length": 33, 
+      "category": "Common Phrases" 
+    },
+    { 
+      "word": "Refrigerator", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Microwave", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Vacuum Cleaner", 
+      "length": 14, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Washing Machine", 
+      "length": 15, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Dishwasher", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Coffee Maker", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Toaster", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Blender", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Oven", 
+      "length": 4, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Television", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Computer", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Couch", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Bed", 
+      "length": 3, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Table", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Chair", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Lamp", 
+      "length": 4, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Mirror", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Curtains", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Towel", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Dustpan", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Sofa", 
+      "length": 4, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Dining Table", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Bookshelf", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Closet", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Iron", 
+      "length": 4, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Hair Dryer", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Tupperware", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Cutting Board", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Trash Can", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Broom", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Mop", 
+      "length": 3, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Rug", 
+      "length": 3, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Shower Curtain", 
+      "length": 14, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Soap Dispenser", 
+      "length": 14, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Plunger", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Candle", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Plant Pot", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Picture Frame", 
+      "length": 13, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Clock", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Knife Set", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Laundry Basket", 
+      "length": 14, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Frying Pan", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Colander", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Mixing Bowl", 
+      "length": 11, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Cutlery Tray", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Whisk", 
+      "length": 5, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Cheese Grater", 
+      "length": 13, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Can Opener", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Spatula", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Kitchen Scale", 
+      "length": 13, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Ice Cube Tray", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Measuring Cup", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Rolling Pin", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Wine Glasses", 
+      "length": 11, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Cutting Mat", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Teapot", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Tray", 
+      "length": 4, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Salad Spinner", 
+      "length": 13, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Meat Thermometer", 
+      "length": 17, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Strainer", 
+      "length": 8, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Drying Rack", 
+      "length": 11, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Garbage Disposal", 
+      "length": 16, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Food Processor", 
+      "length": 14, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Hand Mixer", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Paper Towel Holder", 
+      "length": 18, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Spice Rack", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Step Stool", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Window Blinds", 
+      "length": 13, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Fire Extinguisher", 
+      "length": 17, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "First Aid Kit", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Air Purifier", 
+      "length": 11, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Humidifier", 
+      "length": 10, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Dehumidifier", 
+      "length": 12, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Pillow", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Blanket", 
+      "length": 7, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Laundry Detergent", 
+      "length": 17, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Fabric Softener", 
+      "length": 15, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Trash Bags", 
+      "length": 9, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Sponge", 
+      "length": 6, 
+      "category": "Household Items" 
+    },
+    { 
+      "word": "Dish Soap", 
+      "length": 8, 
+      "category": "Household Items" 
+    }
+]
