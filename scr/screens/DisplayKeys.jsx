@@ -60,12 +60,16 @@ const styles = StyleSheet.create({
   key: {
     padding: 10,
     margin: 10,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#6A5ACD',
     borderRadius: 5,
+    borderWidth: 1,
+    borderColor: 'black',
   },
   keyText: {
     fontSize: 24,
-    color: '#000',
+    color: 'white',
+    textAlign: 'center',
+    fontWeight: 'bold',
   },
 });
 

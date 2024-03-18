@@ -10,9 +10,11 @@ import InstructionsPage from './screens/InstructionsPage';
 // Creating a stack navigator
 const Stack = createStackNavigator();
 
+
 // Defining the main App component
 const App = () => {
   return (
+
     // Wrapping the app inside NavigationContainer from React Navigation
     <NavigationContainer>
       {/* Setting up stack navigator */}
@@ -23,6 +25,7 @@ const App = () => {
         <Stack.Screen name="Instructions" component={InstructionsPage} />
       </Stack.Navigator>
     </NavigationContainer>
+
   );
 };
 
