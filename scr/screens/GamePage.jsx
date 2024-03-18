@@ -21,7 +21,7 @@ const GamePage = () => {
   }, [value]);
 
   useEffect(() => {
-    setGussedChar(Array.from({length: chars.length}, () => ' _ '));
+    setGussedChar(Array.from({length: chars.length}, () => ' '));
   }, [chars]);
 
   const guessedWord = word => {
@@ -54,7 +54,7 @@ const GamePage = () => {
       <View style={styles.outer}>
         <View style={styles.inner}>
           {gussedChar.map((guessChar, index) => (
-            <Text key={index} style={{fontSize: 30}}>
+            <Text key={index} style={styles.innerText}>
               {guessChar}
             </Text>
           ))}
@@ -90,6 +90,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: 100,
+  },
+  innerText: {
+    fontSize: 40,
+    fontStyle: 'italic',
+    fontWeight: 'bold',
+    color: 'cyan',
+    borderRadius: 2,
+    borderBottomWidth: 10,
+    borderColor: 'blue',
+    margin: 10,
+    paddingLeft: 5,
+    paddingRight: 5,
   },
 });
+export {getRandomWord};
 export default GamePage;
