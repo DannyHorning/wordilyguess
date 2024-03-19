@@ -9,7 +9,7 @@ const MainPage = () => {
 
   const handleStartGame = () => {
     // Logic for starting the game
-    console.log('Start Game clicked');
+    navigation.navigate('Game');
   };
 
   const handleInstructions = () => {
@@ -20,7 +20,6 @@ const MainPage = () => {
   return (
     <MainLayout onStartGame={handleStartGame} onInstructions={handleInstructions}>
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        {/* Main Content Here */}
       </View>
       <View style={{ position: 'absolute', bottom: 0, width: '100%', alignItems: 'center', marginBottom: '33%' }}>
         <TouchableOpacity onPress={handleStartGame}>
