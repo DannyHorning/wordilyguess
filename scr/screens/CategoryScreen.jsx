@@ -2,7 +2,7 @@ import React from 'react';
 import {Pressable, StyleSheet, Text, View, TextInput} from 'react-native';
 import MainLayout from '../layouts/Layout';
 import {getRandomWord} from './GamePage';
-
+ 
 const CategoryScreen = () => {
   const value = [
     'Famous People',
@@ -25,7 +25,7 @@ const CategoryScreen = () => {
     </MainLayout>
   );
 };
-
+ 
 const styles = StyleSheet.create({
   inner: {
     fontSize: 36,
@@ -43,5 +43,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
+ 
 export default CategoryScreen;
