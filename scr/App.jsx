@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 // Importing necessary modules from React Navigation
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
