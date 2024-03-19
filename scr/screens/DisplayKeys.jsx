@@ -3,7 +3,7 @@ import {Pressable, StyleSheet, Text} from 'react-native';
 import {useEffect} from 'react';
 const DisplayKeys = ({guessedWord, value}) => {
   const [text, setText] = React.useState([]);
-
+ 
   useEffect(() => {
     setText([
       'q',
@@ -34,13 +34,13 @@ const DisplayKeys = ({guessedWord, value}) => {
       'm',
     ]);
   }, [value]);
-
+ 
   const handleDeleteItem = index => {
     const newText = [...text];
     newText.splice(index, 1);
     setText(newText);
   };
-
+ 
   return text.map((letter, index) => {
     return (
       <Pressable
@@ -55,7 +55,7 @@ const DisplayKeys = ({guessedWord, value}) => {
     );
   });
 };
-
+ 
 const styles = StyleSheet.create({
   key: {
     padding: 10,
@@ -72,5 +72,5 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-
+ 
 export default DisplayKeys;
