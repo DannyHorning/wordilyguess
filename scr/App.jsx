@@ -14,9 +14,11 @@ import GamePage from './screens/GamePage';
 // Creating a stack navigator
 const Stack = createStackNavigator();
 
+
 // Defining the main App component
 const App = () => {
   return (
+
     // Wrapping the app inside NavigationContainer from React Navigation
     <NavigationContainer>
 
@@ -27,6 +29,7 @@ const App = () => {
         <Stack.Screen name="Game" component={GamePage} />
       </Stack.Navigator>
     </NavigationContainer>
+
   );
 };
 
