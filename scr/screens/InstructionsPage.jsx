@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import MainLayout from '../layouts/Layout';
@@ -28,4 +29,20 @@ const styles = StyleSheet.create({
   }
 });
 
+=======
+// InstructionsPage
+
+import React from 'react';
+import { View, Text } from 'react-native';
+
+
+const InstructionsPage = () => {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Instructions Page</Text>
+    </View>
+  );
+};
+
+>>>>>>> Stashed changes
 export default InstructionsPage;
