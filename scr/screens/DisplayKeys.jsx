@@ -32,6 +32,7 @@ const DisplayKeys = ({guessedWord, value}) => {
       'b',
       'n',
       'm',
+      '.',
     ]);
   }, [value]);
  
@@ -59,14 +60,14 @@ const DisplayKeys = ({guessedWord, value}) => {
 const styles = StyleSheet.create({
   key: {
     padding: 10,
-    margin: 10,
+    margin: 3.5,
     backgroundColor: '#6A5ACD',
     borderRadius: 5,
     borderWidth: 1,
     borderColor: 'black',
   },
   keyText: {
-    fontSize: 24,
+    fontSize: 20,
     color: 'white',
     textAlign: 'center',
     fontWeight: 'bold',

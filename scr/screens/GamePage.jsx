@@ -12,12 +12,12 @@ const GamePage = () => {
   const [gussedChar, setGussedChar] = useState([]); // store the guessed characters of the word
   const [life, setLife] = useState(6);
  
-  useEffect(() => {
-    setValue(getRandomWord({category: 'Famous People'}));
-  }, []);
+    useEffect(() => {
+      setValue(getRandomWord({category: 'Animals'}));
+    }, []);
  
   useEffect(() => {
-    setChars(value.replace(/\s/g, '').split(''));
+    setChars(value.split(''));
   }, [value]);
  
   useEffect(() => {
@@ -45,13 +45,14 @@ const GamePage = () => {
     }
   };
   return (
+    // for testing purpose adds life count and answer at the top
     <MainLayout>
       <View>
         <Text style={{fontSize: 20}}>{value}</Text>
         <Text style={{fontSize: 20}}>{life}</Text>
       </View>
  
-      <View style={styles.outer}>
+      <View style={[styles.outer, { marginTop: '60%' }]}>
         <View style={styles.inner}>
           {gussedChar.map((guessChar, index) => (
             <Text key={index} style={styles.innerText}>
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 100,
+    marginBottom: 1,
   },
   innerText: {
     fontSize: 40,
@@ -100,7 +101,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     borderBottomWidth: 10,
     borderColor: 'blue',
-    margin: 10,
+    margin:6,
     paddingLeft: 5,
     paddingRight: 5,
   },
