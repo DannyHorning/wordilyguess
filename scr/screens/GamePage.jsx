@@ -9,7 +9,7 @@ import DisplayKeys from './DisplayKeys';
 const GamePage = () => {
   const [value, setValue] = useState(''); // store the string of the word
   const [chars, setChars] = useState([]); // store the characters of the word
-  const [gussedChar, setGussedChar] = useState([]); // store the guessed characters of the word
+  const [guessedChar, setGuessedChar] = useState([]); // store the guessed characters of the word
   const [life, setLife] = useState(6);
  
     useEffect(() => {
@@ -21,12 +21,44 @@ const GamePage = () => {
   }, [value]);
  
   useEffect(() => {
-    setGussedChar(Array.from({length: chars.length}, () => ' '));
+    setGuessedChar(Array.from({length: chars.length}, () => ' '));
   }, [chars]);
+
+  const handleLoss = () => {
+    if (life <= 0) {
+      return (
+        <View>
+          <Text style={
+            {fontSize: 50, 
+            fontWeight: 'bold', 
+            opacity: 1, color:'white', 
+            textShadowColor: 'black', 
+            textShadowOffset:{width: 3, height: 3}, 
+            textShadowRadius:2}}>
+              You Lost</Text>
+          <Pressable
+            style={({pressed}) => [
+              {
+                backgroundColor: pressed ? 'cornflowerblue' : 'darkblue',
+                padding: 10,
+                borderRadius: 8,
+              },
+              styles.button,
+            ]}
+            onPress={() => {
+              setValue(getRandomWord({category: 'Animals'}));
+              setLife(6);
+            }}>
+            <Text style={{fontSize: 24, textAlign: 'center', fontWeight: 'bold', color:'white'}}>Play Again</Text>
+          </Pressable>
+        </View>
+      );
+    }
+  }
  
   const guessedWord = word => {
     if (chars.includes(word)) {
-      const updatedChars = [...gussedChar];
+      const updatedChars = [...guessedChar];
  
       const indices = [];
       for (let i = 0; i < chars.length; i++) {
@@ -39,7 +71,7 @@ const GamePage = () => {
         updatedChars[index] = word;
       });
  
-      setGussedChar(updatedChars);
+      setGuessedChar(updatedChars);
     } else {
       setLife(prev => prev - 1);
     }
@@ -47,14 +79,17 @@ const GamePage = () => {
   return (
     // for testing purpose adds life count and answer at the top
     <MainLayout>
+      
       <View>
         <Text style={{fontSize: 20}}>{value}</Text>
         <Text style={{fontSize: 20}}>{life}</Text>
       </View>
- 
+
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>{handleLoss()}</View>
+
       <View style={[styles.outer, { marginTop: '60%' }]}>
         <View style={styles.inner}>
-          {gussedChar.map((guessChar, index) => (
+          {guessedChar.map((guessChar, index) => (
             <Text key={index} style={styles.innerText}>
               {guessChar}
             </Text>
@@ -70,6 +105,8 @@ const GamePage = () => {
           <DisplayKeys guessedWord={guessedWord} value={value} />
         </View>
       </View>
+
+      
     </MainLayout>
   );
 };
