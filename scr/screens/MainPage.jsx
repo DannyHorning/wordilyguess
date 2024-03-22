@@ -10,7 +10,7 @@ const MainPage = () => {
 
   const handleStartGame = () => {
     // Logic for starting the game
-    navigation.navigate('Game');
+    navigation.navigate('Category');
   };
 
   const handleInstructions = () => {

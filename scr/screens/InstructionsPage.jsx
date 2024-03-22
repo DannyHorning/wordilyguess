@@ -17,14 +17,16 @@ const InstructionsPage = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginBottom: 60
+    
   },
   text: {
     fontSize: 36, // Adjust as needed
     fontFamily: 'Western', // Assuming Western font is used in MainPage
     fontWeight: 'bold',
-    color: '#8B4513' // Rustic brown color
+    color: 'white' // Rustic brown color
   }
 });
 

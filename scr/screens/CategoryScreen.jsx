@@ -1,7 +1,9 @@
 import React from 'react';
 import {Pressable, StyleSheet, Text, View, TextInput} from 'react-native';
 import MainLayout from '../layouts/Layout';
-import {getRandomWord} from './GamePage';
+// import {getRandomWord} from './GamePage';
+import { useNavigation } from '@react-navigation/native';
+
 
 const CategoryScreen = () => {
   const value = [
@@ -10,6 +12,13 @@ const CategoryScreen = () => {
     'Common Phrases',
     'Household Items',
   ];
+
+  const navigation = useNavigation(); // Initialize navigation object
+
+  const getRandomWord = (category) => {
+    navigation.navigate('Game', { category }); // Navigate to 'Game' with category parameter
+  };
+
   return (
     <MainLayout>
       {value.map((value, key) => (
@@ -25,7 +34,7 @@ const CategoryScreen = () => {
     </MainLayout>
   );
 };
-
+ 
 const styles = StyleSheet.create({
   inner: {
     fontSize: 36,
@@ -43,5 +52,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
+ 
 export default CategoryScreen;
