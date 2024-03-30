@@ -24,7 +24,7 @@ const GamePage = () => {
     setGuessedChar(Array.from({length: chars.length}, () => ' '));
   }, [chars]);
 
-  const handleLoss = () => {
+  const handleGameEnd = () => {
     if (life <= 0) {
       return (
         <View>
@@ -54,6 +54,35 @@ const GamePage = () => {
         </View>
       );
     }
+  else if (guessedChar.join('') === value){
+    return (
+      <View>
+        <Text style={
+          {fontSize: 50, 
+          fontWeight: 'bold', 
+          opacity: 1, color:'white', 
+          textShadowColor: 'black', 
+          textShadowOffset:{width: 3, height: 3}, 
+          textShadowRadius:2}}>
+            You Won</Text>
+        <Pressable
+          style={({pressed}) => [
+            {
+              backgroundColor: pressed ? 'cornflowerblue' : 'darkblue',
+              padding: 10,
+              borderRadius: 8,
+            },
+            styles.button,
+          ]}
+          onPress={() => {
+            setValue(getRandomWord({category: 'Animals'}));
+            setLife(6);
+          }}>
+          <Text style={{fontSize: 24, textAlign: 'center', fontWeight: 'bold', color:'white'}}>Play Again</Text>
+        </Pressable>
+      </View>
+    );
+  } 
   }
  
   const guessedWord = word => {
@@ -83,9 +112,10 @@ const GamePage = () => {
       <View>
         <Text style={{fontSize: 20}}>{value}</Text>
         <Text style={{fontSize: 20}}>{life}</Text>
+        <Text style={{fontSize: 20}}>{guessedChar.join('')}</Text>
       </View>
 
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>{handleLoss()}</View>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>{handleGameEnd()}</View>
 
       <View style={[styles.outer, { marginTop: '60%' }]}>
         <View style={styles.inner}>
