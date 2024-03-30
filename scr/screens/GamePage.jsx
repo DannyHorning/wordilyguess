@@ -10,8 +10,11 @@ const GamePage = () => {
   const [value, setValue] = useState(''); // store the string of the word
   const [chars, setChars] = useState([]); // store the characters of the word
   const [guessedChar, setGuessedChar] = useState([]); // store the guessed characters of the word
-  const [life, setLife] = useState(6);
- 
+  const [life, setLife] = useState(6); // store the life count
+
+
+  
+
     useEffect(() => {
       setValue(getRandomWord({category: 'Animals'}));
     }, []);
@@ -22,10 +25,10 @@ const GamePage = () => {
  
   useEffect(() => {
     setGuessedChar(Array.from({length: chars.length}, () => ' '));
-  }, [chars]);
+  }, [chars]); 
 
   const handleGameEnd = () => {
-    if (life <= 0) {
+    if (life <= 0){
       return (
         <View>
           <Text style={
@@ -105,6 +108,7 @@ const GamePage = () => {
       setLife(prev => prev - 1);
     }
   };
+  
   return (
     // for testing purpose adds life count and answer at the top
     <MainLayout>
@@ -130,11 +134,12 @@ const GamePage = () => {
       <View>
         <TextInput />
       </View>
+      {life > 0 && guessedChar.join('') !== value && (
       <View style={styles.outer}>
         <View style={styles.inner}>
           <DisplayKeys guessedWord={guessedWord} value={value} />
         </View>
-      </View>
+      </View>)}
 
       
     </MainLayout>
