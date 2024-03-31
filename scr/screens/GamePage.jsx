@@ -6,8 +6,10 @@ import hangmanWords from '../layouts/assets/hangmanWords.json';
 import MainLayout from '../layouts/Layout';
 import DisplayKeys from './DisplayKeys';
  
-const GamePage = () => {
+const GamePage = ({category}) => {
   const maxLives = 6;
+  
+
   const [value, setValue] = useState(''); // store the string of the word
   const [chars, setChars] = useState([]); // store the characters of the word
   const [guessedChar, setGuessedChar] = useState([]); // store the guessed characters of the word
@@ -17,8 +19,8 @@ const GamePage = () => {
   
 
     useEffect(() => {
-      setValue(getRandomWord({category: 'Animals'}));
-    }, []);
+      setValue(getRandomWord({category}));
+    }, [category]);
  
   useEffect(() => {
     setChars(value.split(''));
@@ -64,6 +66,15 @@ const GamePage = () => {
             }}>
             <Text style={{fontSize: 24, textAlign: 'center', fontWeight: 'bold', color:'white'}}>Play Again</Text>
           </Pressable>
+          <Text style={
+            {textAlign: 'center',
+            fontSize: Math.min(25, 500 / value.length),
+            fontWeight: 'bold', 
+            opacity: 1, color:'white', 
+            textShadowColor: 'black', 
+            textShadowOffset:{width: 3, height: 3}, 
+            textShadowRadius:2}}>
+              {value}</Text>
         </View>
       );
     }
@@ -166,6 +177,7 @@ const GamePage = () => {
  
 const getRandomWord = ({category}) => {
   const words = hangmanWords.filter(word => word.category === category);
+  console.log('Words for category:', words); 
   const randomIndex = Math.floor(Math.random() * words.length);
   return words[randomIndex].word.toLowerCase();
 };

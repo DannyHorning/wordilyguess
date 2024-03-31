@@ -16,7 +16,7 @@ const CategoryScreen = () => {
   const navigation = useNavigation(); // Initialize navigation object
 
   const getRandomWord = (category) => {
-    navigation.navigate('Game', { category }); // Navigate to 'Game' with category parameter
+    navigation.navigate('Game', {category}); // Navigate to 'Game' with category parameter
   };
 
   return (
