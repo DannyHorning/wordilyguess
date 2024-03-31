@@ -6,10 +6,11 @@ import hangmanWords from '../layouts/assets/hangmanWords.json';
 import MainLayout from '../layouts/Layout';
 import DisplayKeys from './DisplayKeys';
  
-const GamePage = ({category}) => {
+const GamePage = ({route}) => {
+  const { category } = route.params;
   const maxLives = 6;
-  
 
+  const [selectedCategory, setSelectedCategory] = useState(category); // store the selected category
   const [value, setValue] = useState(''); // store the string of the word
   const [chars, setChars] = useState([]); // store the characters of the word
   const [guessedChar, setGuessedChar] = useState([]); // store the guessed characters of the word
@@ -17,9 +18,12 @@ const GamePage = ({category}) => {
 
 
   
+    useEffect(() => {
+      setSelectedCategory(category);
+    }, [category]);
 
     useEffect(() => {
-      setValue(getRandomWord({category}));
+      setValue(getRandomWord(category));
     }, [category]);
  
   useEffect(() => {
@@ -61,7 +65,8 @@ const GamePage = ({category}) => {
               styles.button,
             ]}
             onPress={() => {
-              setValue(getRandomWord({category: 'Animals'}));
+              console.log('Category:', category);
+              setValue(getRandomWord(selectedCategory));
               setLife(6);
             }}>
             <Text style={{fontSize: 24, textAlign: 'center', fontWeight: 'bold', color:'white'}}>Play Again</Text>
@@ -99,7 +104,8 @@ const GamePage = ({category}) => {
             styles.button,
           ]}
           onPress={() => {
-            setValue(getRandomWord({category: 'Animals'}));
+            console.log('Category:', category);
+            setValue(getRandomWord(selectedCategory));
             setLife(6);
           }}>
           <Text style={{fontSize: 24, textAlign: 'center', fontWeight: 'bold', color:'white'}}>Play Again</Text>
@@ -176,6 +182,7 @@ const GamePage = ({category}) => {
 };    
  
 const getRandomWord = ({category}) => {
+  console.log('Category:', category);
   const words = hangmanWords.filter(word => word.category === category);
   console.log('Words for category:', words); 
   const randomIndex = Math.floor(Math.random() * words.length);
