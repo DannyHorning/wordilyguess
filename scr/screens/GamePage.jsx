@@ -31,7 +31,7 @@ const GamePage = ({route}) => {
   }, [value]);
  
   useEffect(() => {
-    setGuessedChar(Array.from({length: chars.length}, () => ' '));
+    setGuessedChar(Array.from({length: chars.length}, () => null));
   }, [chars]); 
 
   const hangmanImages = [
@@ -206,13 +206,14 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontStyle: 'italic',
     fontWeight: 'bold',
-    color: 'cyan',
+    color: 'white',
     borderRadius: 2,
     borderBottomWidth: 10,
-    borderColor: 'blue',
+    borderColor: 'white',
     margin:6,
     paddingLeft: 5,
     paddingRight: 5,
+    minWidth: 25,
   },
 });
 export {getRandomWord};
