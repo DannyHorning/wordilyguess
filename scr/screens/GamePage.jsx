@@ -155,12 +155,11 @@ const GamePage = ({route}) => {
     const lines = [];
     let line = [];
     guessedCharacters.forEach((char, index) => {
-      if (char.props.children === '\n' || (index < guessedCharacters.length - 1 && guessedCharacters[index + 1].props.children === '\n')) {
-        if (index === guessedCharacters.length - 1 && char.props.children !== '\n') {
-          line.push(char); // Include the last character of the last word in the line
+      if (char.props.children === '\n') {
+        if (line.length > 0 && index < guessedCharacters.length - 1) {
+          lines.push(<View key={index} style={{ flexDirection: 'row' }}>{line}</View>);
+          line = [];
         }
-        lines.push(<View key={index} style={{ flexDirection: 'row' }}>{line}</View>);
-        line = [];
       } else {
         line.push(char);
       }
@@ -172,6 +171,7 @@ const GamePage = ({route}) => {
   
     return lines;
   };
+  
   
   
   return (
