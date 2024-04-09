@@ -31,9 +31,12 @@ const GamePage = ({route}) => {
   }, [value]);
  
   useEffect(() => {
-    setGuessedChar(Array.from({length: chars.length}, () => null));
-  }, [chars]); 
-
+    const initialGuessedChars = value.split('').map(char => {
+      return char === ' ' ? ' ' : null; // If char is space, initialize as space, otherwise as null
+    });
+    setGuessedChar(initialGuessedChars);
+  }, [value]);
+  
   const hangmanImages = [
     require('../layouts/assets/cowboy-head.png'),
     require('../layouts/assets/cowboy-body.png'),
@@ -135,6 +138,21 @@ const GamePage = ({route}) => {
       setLife(prev => prev - 1);
     }
   };
+
+  // Rendering guessed characters
+const renderGuessedCharacters = () => {
+  const guessedCharacters = guessedChar.map((guessChar, index) => {
+    if (guessChar === ' ') {
+      return <Text key={index} style={styles.space}>{' '}</Text>;
+    } else if (guessChar === '') {
+      return <Text key={index} style={styles.innerText}>{''}</Text>; // Render an empty space for null values
+    } else {
+      return <Text key={index} style={styles.innerText}>{guessChar}</Text>;
+    }
+  });
+
+  return guessedCharacters;
+};
   
   return (
     <MainLayout>
@@ -155,15 +173,11 @@ const GamePage = ({route}) => {
           </View>
         ))}
   
-        <View style={[styles.outer, { marginTop: '60%' }]}>
-          <View style={styles.inner}>
-            {guessedChar.map((guessChar, index) => (
-              <Text key={index} style={styles.innerText}>
-                {guessChar}
-              </Text>
-            ))}
-          </View>
+  <View style={[styles.outer, { marginTop: '60%' }]}>
+        <View style={styles.inner}>
+          {renderGuessedCharacters()}
         </View>
+      </View>
   
         <View>
           <TextInput />
@@ -214,6 +228,12 @@ const styles = StyleSheet.create({
     paddingLeft: 5,
     paddingRight: 5,
     minWidth: 25,
+  },
+    space: {
+      fontSize: 40,
+      fontWeight: 'bold',
+      color: 'white',
+      margin: 6,
   },
 });
 export {getRandomWord};
