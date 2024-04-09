@@ -1,14 +1,40 @@
-import React, { useState, useEffect } from 'react';
-import { Pressable, StyleSheet, Text } from 'react-native';
+import React, {useState, useEffect} from 'react';
+import {Pressable, StyleSheet, Text} from 'react-native';
 
-const DisplayKeys = ({ guessedWord, value }) => {
+const DisplayKeys = ({guessedWord, value}) => {
   const [text, setText] = useState([]);
 
   useEffect(() => {
     setText([
-      'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',
-      'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',
-      'z', 'x', 'c', 'v', 'b', 'n', 'm', '.'
+      'q',
+      'w',
+      'e',
+      'r',
+      't',
+      'y',
+      'u',
+      'i',
+      'o',
+      'p',
+      'a',
+      's',
+      'd',
+      'f',
+      'g',
+      'h',
+      'j',
+      'k',
+      'l',
+      'z',
+      'x',
+      'c',
+      'v',
+      'b',
+      'n',
+      'm',
+      '.',
+      "'",
+      ',',
     ]);
   }, [value]);
 
@@ -25,11 +51,17 @@ const DisplayKeys = ({ guessedWord, value }) => {
     <Pressable
       key={index}
       style={letter ? styles.key : styles.emptyKey}
-      onPress={() => letter && handleDeleteItem(index)}
-    >
-      {letter.split('').map((char, idx) => ( // Split letter into characters and map over them
-        <Text key={idx} style={styles.keyText}>{char}</Text> // Render each character within a Text component
-      ))}
+      onPress={() => letter && handleDeleteItem(index)}>
+      {letter.split('').map(
+        (
+          char,
+          idx, // Split letter into characters and map over them
+        ) => (
+          <Text key={idx} style={styles.keyText}>
+            {char}
+          </Text> // Render each character within a Text component
+        ),
+      )}
     </Pressable>
   ));
 };
