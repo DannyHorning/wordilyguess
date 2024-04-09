@@ -38,7 +38,7 @@ const GamePage = ({route}) => {
 
   useEffect(() => {
     const initialGuessedChars = value.split('').map(char => {
-      return char === ' ' ? ' ' : null; // If char is space, initialize as space, otherwise as null
+      return char === ' ' ? ' ' : null; 
     });
     setGuessedChar(initialGuessedChars);
   }, [value]);
