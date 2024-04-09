@@ -172,36 +172,42 @@ const GamePage = ({route}) => {
 
 
   const renderGuessedCharacters = () => {
-    const guessedCharacters = guessedChar.map((guessChar, index) => {
-      if (guessChar === ' ') {
-        return <Text key={index} style={styles.space}>{'\n'}</Text>; // Start a new line for space
-      } else if (guessChar === '') {
-        return <Text key={index} style={styles.innerText}>{''}</Text>; // Render an empty space for null values
-      } else {
-        return <Text key={index} style={styles.innerText}>{guessChar}</Text>;
-      }
-    });
-  
-    const lines = [];
-    let line = [];
-    guessedCharacters.forEach((char, index) => {
-      if (char.props.children === '\n') {
-        if (line.length > 0 && index < guessedCharacters.length - 1) {
-          lines.push(<View key={index} style={{ flexDirection: 'row' }}>{line}</View>);
-          line = [];
-        }
-      } else {
-        line.push(char);
-      }
-    });
-  
-    if (line.length > 0) {
-      lines.push(<View key={guessedCharacters.length} style={{ flexDirection: 'row' }}>{line}</View>);
+  const guessedCharacters = guessedChar.map((guessChar, index) => {
+    if (guessChar === ' ') {
+      return <Text key={index} style={styles.space}>{guessChar}</Text>; // Render space
+    } else if (guessChar === '') {
+      return null; // Skip rendering for null values
+    } else {
+      return <Text key={index} style={styles.innerText}>{guessChar}</Text>; // Render character
     }
-  
-    return lines;
-  };
-  
+  });
+
+  const lines = [];
+  let line = [];
+  guessedCharacters.forEach((char, index) => {
+    if (char === null || char.props.children === ' ') {
+      lines.push(<View key={index} style={{ flexDirection: 'row' }}>{line}</View>);
+      line = [];
+    } else {
+      line.push(char);
+    }
+  });
+
+  if (line.length > 0) {
+    lines.push(<View key={guessedCharacters.length} style={{ flexDirection: 'row' }}>{line}</View>);
+  }
+
+  // Add space between words
+  const spacedLines = lines.map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <Text style={styles.space}> </Text>
+    </React.Fragment>
+  ));
+
+  return spacedLines;
+};
+
   
   
   return (
@@ -259,7 +265,7 @@ const GamePage = ({route}) => {
           </View>
         ))}
 
-        <View style={[styles.outer, {marginTop: '60%'}]}>
+        <View style={[styles.outer, {marginTop: '40%'}]}>
           <View style={[styles.container, {flexDirection: 'column'}]}>
             <View style={styles.inner}>{renderGuessedCharacters()}</View>
           </View>
