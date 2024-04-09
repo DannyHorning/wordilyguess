@@ -223,6 +223,23 @@ const GamePage = ({route}) => {
           }}>
           {handleGameEnd()}
         </View>
+        <View 
+        style= {{
+          justifyContent: 'center',
+          alignItems: 'center',
+          position: 'absolute',
+          right: '-26%',
+          top: '17%',
+          transform: [{translateX: -50}, {translateY: -50}],
+        
+        }}>
+          <Image
+            source={require('../layouts/assets/Gallows.png')}
+            style={{
+              width: 600, height: 600
+            }}
+          />
+        </View>
 
         {Array.from({length: maxLives - life}, (_, index) => (
           <View
